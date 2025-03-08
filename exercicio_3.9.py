@@ -9,12 +9,11 @@ Data: 03/03/2025
 numeros = []
 
 # Entrada de dados
-
+numeros = [float(input(f"Escreva o {i+1}° numero: ")) for i in range(6)]
 
 # Processamento e saída de dados
 
-
-
-# Saida de dados
-
-
+for num in numeros:
+    cubo = num**3
+    raiz_cubica = num**(1/3)
+    print(f"Número: {num}, Cubo: {cubo:.2f}, Raiz cúbica: {raiz_cubica:.2f}")
