@@ -7,10 +7,15 @@ Data: 03/03/2025
 """
 
 
-# entrada de dados
 
+# entrada de dados
+numeros=[]
 
 # armazenamento de dados
-
+numeros = list(range(0,21))
 
 # processamento e saida de dados
+for n in numeros:
+    if n %2  == 0:
+        print(n+2)
+    
